@@ -1,78 +1,91 @@
 
 
-body
-{
+body{
     margin: 0px;
     padding: 0px;
-    background: #FFF;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 12pt;
-    font-weight: 300;
+    background color: #FFF;
+    font-family: "Century Gothic", ;
+    font-size: 13pt;
     color: #000000;
+}
+h1{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Century Gothic", ;
+    font-size: 25pt;
+    color: #862525;
+    position: relative;
+		text-align: center;	
+
+}
+.banner {
+    background-color: #473e3d;
+    font-family: "Century Gothic", ;
+    font-size: 25pt;
+    color: #d1d2d4;
+		padding: 210px 0;
+		position: relative;
+        text-align: center;	
 }
 
 
-ul
-{
+
+ul {
     padding: 0;
     list-style: none;
     margin-top: 0;
+    
 }
 
 
-.container
-{
+.container{
     overflow: hidden;
     margin: 0em auto;
     width: 1200px;
 }
 
-#header
-{
+
+#header{
+    
     position: relative;
-    padding: 3em 0em;
+    padding: 50px 25px;
 }
 
 
-#groupname
-{
+#groupname{
     position: absolute;
-    top: 1em;
+    top: 20px;
     left: 0;
+    
 }
 
 
 
-#groupname a
-{
+#groupname a{
     text-decoration: none;
     color: #862525;
 }
 
 
-#menu
-{
+#menu{
     position: absolute;
-    top: 2em;
+    top: 30px;
     right: 0;
 }
 
-#menu ul
-{
+#menu ul{
     display: inline-block;
 }
 
-#menu li
-{
+#menu li{
     display: block;
     float: left;
     text-align: center;
     
 }
 
-#menu li a, #menu li span
-{
-    padding: 1em 1.5em;
+#menu li a, #menu li span{
+    padding: 10px 25px;
     text-decoration: none;
     font-weight: 400;
     color: rgba(0,0,0,.8);
@@ -82,8 +95,7 @@ ul
 {
 }
 
-#menu a:hover
-{
+#menu a:hover{
     text-decoration: underline;
 }
 
