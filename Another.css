@@ -4,7 +4,7 @@ body{
     
     margin: 0px;
     padding: 0px;
-    background-color: #473e3d;
+    background-image: url(images/wooden.png);
     font-family: "Century Gothic", ;
     font-size: 13.5pt;
     color: #000000;
@@ -29,7 +29,7 @@ h1{
 
     overflow: hidden;
     margin: 50px;
-    border-top: 1px solid rgba(0,0,0,0.2);
+    border-top: 1px solid #C2C0C0 ;
     text-align: left ;
         font-family: "Century Gothic", ;
         font-size: 14pt;
@@ -59,7 +59,7 @@ h1{
     color: #473e3d;
     position: relative;
     padding-top: 30px;
-border-top: 1px solid rgba(0,0,0,0.2);
+border-top: 1px solid #C2C0C0 ;
 }
 #text h4{
     color: #919191;
@@ -71,7 +71,7 @@ border-top: 1px solid rgba(0,0,0,0.2);
 
 
 .container{
-    background-color: #473e3d;
+    background-image: url(images/Wooden.png);
     overflow: hidden;
    
 }
@@ -93,13 +93,15 @@ border-top: 1px solid rgba(0,0,0,0.2);
 
 #groupname a{
     text-decoration: none;
-    color: #fff;
+    color: white;
     font-family: "Century Gothic", ;
     font-size: 20pt;
     position: relative;
     text-align: center;	
 }
-
+/*  for the navigation bar i used https://templated.co/saleable, 
+to get the bar to sit on the top right hand side. I have changed the code to suit our wesbite.
+I also liked the postioning of the title so i kept that*/
 ul {
     padding: 0;
     list-style: none;
@@ -128,7 +130,7 @@ ul {
     padding: 10px 25px;
     text-decoration: none;
     font-weight: 400;
-    color: #fff;
+    color: white;
 }
 
 #menu li:hover a, #menu li.active a, #menu li.active span
@@ -139,9 +141,9 @@ ul {
 #menu a:hover{
     text-decoration: underline;
 }
-
+/* The above section  */
 .banner {
-    background-color: #FFF;
+    background-color: white;
     font-family: "Century Gothic", ;
     font-size: 25pt;
     color: #d1d2d4;
@@ -153,7 +155,7 @@ ul {
 
 
 .block {
-    background-color: #473e3d;
+    
     height: 100px;
     margin: 0px 100px 0px 100px;
 		position: relative;
