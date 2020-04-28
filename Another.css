@@ -4,7 +4,7 @@ body{
     
     margin: 0px;
     padding: 0px;
-    background-color: #FFF;
+    background-color: #473e3d;
     font-family: "Century Gothic", ;
     font-size: 13.5pt;
     color: #000000;
@@ -13,7 +13,7 @@ h1{
     margin: 0px;
     padding: 0px;
     font-family: "Century Gothic", ;
-    font-size: 25pt;
+    font-size: 45pt;
     color: #862525;
     position: relative;
         text-align: center;	
@@ -24,13 +24,33 @@ h1{
 #text  {
 
 }
+
 #text p {
-    padding: 5px 55px;
+
+    overflow: hidden;
+    margin: 50px;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    text-align: left ;
+        font-family: "Century Gothic", ;
+        font-size: 14pt;
+        color: black;
+   
+
+}
+   
+
+#text h2 {
+    margin: 50px;
+    padding: 0px;
     font-family: "Century Gothic", ;
-    font-size: 14pt;
+    font-size: 20pt;
+    color: #473e3d;
+    text-align: left ;
     
 
 }
+
+
 #text h3{
     margin: 2px;
     padding: 0px;
@@ -47,19 +67,13 @@ border-top: 1px solid rgba(0,0,0,0.2);
     margin: 5px;
     padding: 0px;
 }
-.border{
-overflow: hidden;
-padding-top: 30px;
-border-top: 1px solid rgba(0,0,0,0.2);
-padding-bottom: 50px;
-border-bottom: 1px solid rgba(0,0,0,0.2);
-}
+
 
 
 .container{
+    background-color: #473e3d;
     overflow: hidden;
-    margin: 0em auto;
-    width: 1200px;
+   
 }
 
 
@@ -73,13 +87,17 @@ border-bottom: 1px solid rgba(0,0,0,0.2);
 #groupname{
     position: absolute;
     top: 20px;
-    left: 0;
+    left: 100px;
     
 }
 
 #groupname a{
     text-decoration: none;
-    color: #862525;
+    color: #fff;
+    font-family: "Century Gothic", ;
+    font-size: 20pt;
+    position: relative;
+    text-align: center;	
 }
 
 ul {
@@ -110,83 +128,34 @@ ul {
     padding: 10px 25px;
     text-decoration: none;
     font-weight: 400;
-    color: rgba(0,0,0,.8);
+    color: #fff;
 }
 
 #menu li:hover a, #menu li.active a, #menu li.active span
 {
 }
-image {
-    display: inline-block;
-    border: 1px solid rgba(0,0,0,.1);
-}
-.image-size
-	{
-		display: block;
-        width: 300px;
-        height: 200px;
-		margin: 0 0 5px 0;
+
 	}
 #menu a:hover{
     text-decoration: underline;
 }
 
 .banner {
-    background-color: #473e3d;
-    background-position: top left;
+    background-color: #FFF;
     font-family: "Century Gothic", ;
     font-size: 25pt;
     color: #d1d2d4;
-		padding: 210px 0;
+    height: 700px;
+    margin: 0px 100px 0px 100px;
 		position: relative;
         text-align: center;	
 }
 
-#placement
-{
-    overflow: hidden;
-    padding-top: 50px;
-    border-top: 1px solid rgba(0,0,0,0.2);
-    padding-bottom: 50px;
-    
-}
 
-#placement .box
-{
-    text-align: center;
-    color: rgba(0,0,0,0.5);
+.block {
+    background-color: #473e3d;
+    height: 100px;
+    margin: 0px 100px 0px 100px;
+		position: relative;
+        text-align: center;	
 }
-
-#placement h3
-{
-    display: block;
-    padding-bottom: 10px;
-    font-size: 18px;
-    color: rgba(0,0,0,0.6);
-}
-
-
-.column1, .column2, .column3
-{
-    float: left;
-    margin-right: 24px;
-    width: 282px;
-}
-
-.column4
-{
-    float: right;
-    width: 282px;
-}
-.button
-	{
-		display: inline-block;
-		margin-top: 15px;
-		padding: 8px 20px;
-		background: #64ABD1;
-		line-height: 25px;
-		letter-spacing: 1px;
-		text-decoration: none;
-		font-size: 16px;
-		color: #FFF;
-	}
