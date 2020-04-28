@@ -15,69 +15,18 @@ h1{
     color: #862525;
     position: relative;
         text-align: center;	
+        padding-bottom: 10px;
 }
 
-
-#sidenav {
-    height: 1000px;
-    width: 300px; 
+.sidenav {
+    height: 400px;
+    width: 400px; 
     top: 0;
     left: 0;
-    background-color: #dbd9d9;
+    background-color: #473e3d;;
     overflow-x: hidden;
     padding-top: 20px;
-    text-align: center;
-    float: left;
   }
-  
-  #sidenav a {
-    text-align: center;
-    padding-top: 0px;
-    font-family: "Century Gothic", ;
-    font-size: 14pt;
-    text-decoration: none;
-    color: black;
-  }
-  #sidenav p {
-      padding-bottom: 15px;
-  }
-  #sidenav li:hover a, #sidenavli.active a, #sidenav li.active span
-{}
-#sidenav a:hover{
-    text-decoration: underline;
-}
-
-#sidenav h2{
-    margin: 0px;
-    font-family: "Century Gothic", ;
-    font-size: 20pt;
-    color: #862525;
-    position: relative;
-    text-align: center;	
-}
-
-
-
-#contentbox {
-    margin-left: 200px;
-    padding: 1px 25px;
-    height: 1000px;
-    margin-left: 0;
-     text-align: center;
-  }
-  #contentbox h3{
-    margin: 5px;
-  
-    font-family: "Century Gothic", ;
-    font-size: 25pt;
-    color: #473e3d;
-    position: relative;
-    padding-top: 30px;
-    
-    
-  }
-
-
 #text  {
 
 }
@@ -85,7 +34,6 @@ h1{
     padding: 5px 55px;
     font-family: "Century Gothic", ;
     font-size: 14pt;
-    text-decoration: none;
     
 
 }
@@ -104,6 +52,13 @@ h1{
     font-family: "Century Gothic", ;
     margin: 5px;
     padding: 0px;
+}
+#text h2{
+    text-decoration:none;
+    text-align: center;
+    font-family: "Century Gothic", ;
+    font-size: 18px;
+    color: #473e3d;
 }
 .border{
       overflow: hidden;
@@ -145,24 +100,14 @@ h1{
     background-color: #473e3d;
     background-position: top left;
     font-family: "Century Gothic", ;
-    font-size: 25pt;
+    font-size: 65pt;
     color: #d1d2d4;
-		padding: 210px 0;
+		padding: 160px;
 		position: relative;
         text-align: center;	
 }
 
-.banner2 {
-    background-color: #473e3d;
-    background-position: top left;
-    font-family: "Century Gothic", ;
-    font-size: 25pt;
-    color: #d1d2d4;
-		padding: 80px 0;
-		position: relative;
-        text-align: center;	
 
-}
 /* For the navigation bar, i used https://templated.co/saleable, 
 to get the bar to sit on the top right hand side. I have changed the code to suit our wesbite.
 I also liked the postioning of the title so i kept that */
@@ -208,7 +153,7 @@ image {
 	{
 		display: block;
         width: 300px;
-        height: 200px;
+        height: 300px;
 		margin: 0 0 5px 0;
 	}
 #menu a:hover{
@@ -221,9 +166,9 @@ for the four coloums, i used it find out how to add a fourth column. */
 #placement
 {
     overflow: hidden;
-    padding-top: 50px;
+    padding-top: 20px;
     border-top: 1px solid #C2C0C0 ;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     
 }
 
@@ -235,37 +180,18 @@ for the four coloums, i used it find out how to add a fourth column. */
 
 #placement h3
 {
-    display: block;
-    padding-bottom: 10px;
+    display: inline-block;
     font-size: 18px;
     color: #5D6D7E;
 }
 
 
+
 .column1, .column2, .column3
 {
     float: left;
-    margin-right: 24px;
+    margin: 50px;
     width: 282px;
 }
 
-.column4
-{
-    float: right;
-    width: 282px;
-}
-.button
-	{
-        display: inline-block;
-        border-radius:6px;
-		margin-top: 15px;
-		padding: 8px 20px;
-		background: #862525;
-		line-height: 25px;
-		letter-spacing: 1px;
-		text-decoration: none;
-		font-size: 16px;
-        color: #FFF;
-      
-	   
-	}
+
