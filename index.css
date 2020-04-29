@@ -166,7 +166,7 @@ for the four coloums, i used it find out how to add a fourth column. */
 #placement
 {
     overflow: hidden;
-    padding-top: 20px;
+    padding-top: 10px;
     border-top: 1px solid #C2C0C0 ;
     padding-bottom: 0px;
     
@@ -175,14 +175,14 @@ for the four coloums, i used it find out how to add a fourth column. */
 #placement .text
 {
     text-align: center;
-    color: #A5A4A4 ;
+    color: #979797;
 }
 
 #placement h3
 {
     display: inline-block;
     font-size: 18px;
-    color: #5D6D7E;
+    color: #862525
 }
 
 
