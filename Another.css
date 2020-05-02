@@ -5,16 +5,16 @@ body{
     margin: 0px;
     padding: 0px;
     background-image: url(images/wooden.png);
-    font-family: "Century Gothic", ;
+    font: 2em "Century Gothic", sans-serif;
     font-size: 13.5pt;
-    color: #000000;
+    color: #d1d7e0;
 }
 h1{
     margin: 0px;
     padding: 0px;
-    font-family: "Century Gothic", ;
+    font: 2em "Century Gothic", sans-serif;
     font-size: 45pt;
-    color: #862525;
+    color: #E98074;
     position: relative;
         text-align: center;	
 }
@@ -31,7 +31,7 @@ h1{
     margin: 50px;
     border-top: 1px solid #C2C0C0 ;
     text-align: left ;
-        font-family: "Century Gothic", ;
+    font: 2em "Century Gothic", sans-serif;
         font-size: 14pt;
         color: black;
    
@@ -42,7 +42,7 @@ h1{
 #text h2 {
     margin: 50px;
     padding: 0px;
-    font-family: "Century Gothic", ;
+    font: 2em "Century Gothic", sans-serif;
     font-size: 20pt;
     color: #473e3d;
     text-align: left ;
@@ -54,7 +54,7 @@ h1{
 #text h3{
     margin: 2px;
     padding: 0px;
-    font-family: "Century Gothic", ;
+    font: 2em "Century Gothic", sans-serif;
     font-size: 25pt;
     color: #473e3d;
     position: relative;
@@ -63,7 +63,7 @@ border-top: 1px solid #C2C0C0 ;
 }
 #text h4{
     color: #919191;
-    font-family: "Century Gothic", ;
+    font: 2em "Century Gothic", sans-serif;
     margin: 5px;
     padding: 0px;
 }
@@ -93,8 +93,8 @@ border-top: 1px solid #C2C0C0 ;
 
 #groupname a{
     text-decoration: none;
-    color: white;
-    font-family: "Century Gothic", ;
+    color: #fef9c7;
+    font: 2em "Century Gothic", sans-serif;
     font-size: 20pt;
     position: relative;
     text-align: center;	
@@ -144,9 +144,9 @@ ul {
 /* The above section  */
 .banner {
     background-color: white;
-    font-family: "Century Gothic", ;
+    font: 2em "Century Gothic", sans-serif;
     font-size: 25pt;
-    color: #d1d2d4;
+    color: #fef9c7;
     height: 700px;
     margin: 0px 100px 0px 100px;
 		position: relative;

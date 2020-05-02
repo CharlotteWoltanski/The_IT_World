@@ -2,37 +2,29 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #FFF;
-    font-family: "Century Gothic", ;
+    background-color: #9E5A63;
+    font: 2em "Century Gothic", sans-serif;
     font-size: 13.5pt;
-    color: #000000;
+    color: #d1d7e0;
 }
 h1{
     margin: 0px;
     padding: 0px;
-    font-family: "Century Gothic", ;
+    font: 2em "Century Gothic", sans-serif;
     font-size: 25pt;
-    color: #862525;
+    color: #E98074;
     position: relative;
         text-align: center;	
         padding-bottom: 10px;
 }
 
-.sidenav {
-    height: 400px;
-    width: 400px; 
-    top: 0;
-    left: 0;
-    background-color: #473e3d;;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
+
 #text  {
 
 }
 #text p {
     padding: 5px 55px;
-    font-family: "Century Gothic", ;
+    font: 2em "Century Gothic", sans-serif;
     font-size: 14pt;
     
 
@@ -40,26 +32,47 @@ h1{
 #text h3{
     margin: 2px;
     padding: 0px;
-    font-family: "Century Gothic", ;
+    font: 2em "Century Gothic", sans-serif;
     font-size: 25pt;
-    color: #473e3d;
+    color: #E98074;
     position: relative;
     padding-top: 30px;
     border-top: 1px solid #C2C0C0 ;
 }
 #text h4{
     color: #919191;
-    font-family: "Century Gothic", ;
+    font: 2em "Century Gothic", sans-serif;
     margin: 5px;
     padding: 0px;
 }
 #text h2{
-    text-decoration:none;
+    
     text-align: center;
-    font-family: "Century Gothic", ;
+    font: 2em "Century Gothic", sans-serif;
     font-size: 18px;
-    color: #473e3d;
+    color: #C5c6c7;
+    text-decoration: none;
 }
+
+#text h5{
+    margin: 2px;
+    padding: 0px;
+    font: 2em "Century Gothic", sans-serif;
+    font-size: 25pt;
+    color: #fef9c7;
+    position: relative;
+    padding-top: 30px;
+    border-top: 8px solid #C2C0C0 ;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
 .border{
       overflow: hidden;
       padding-top: 30px;
@@ -93,15 +106,15 @@ h1{
 
 #groupname a{
     text-decoration: none;
-    color: #862525;
+    color: #fef9c7;
 }
 
 .banner {
-    background-color: #473e3d;
+    background-color: #542f34;
     background-position: top left;
-    font-family: "Century Gothic", ;
+    font: 2em "Century Gothic", sans-serif;
     font-size: 65pt;
-    color: #d1d2d4;
+    color: #fef9c7;
 		padding: 160px;
 		position: relative;
         text-align: center;	
@@ -139,7 +152,7 @@ ul {
     padding: 10px 25px;
     text-decoration: none;
     font-weight: 400;
-    color: rgba(0,0,0,.8);
+    color: #ebf7ee ;
 }
 
 #menu li:hover a, #menu li.active a, #menu li.active span
@@ -175,14 +188,14 @@ for the four coloums, i used it find out how to add a fourth column. */
 #placement .text
 {
     text-align: center;
-    color: #979797;
+    color: #C5c6c7;
 }
 
 #placement h3
 {
     display: inline-block;
     font-size: 18px;
-    color: #862525
+    color: #E98074 ;
 }
 
 

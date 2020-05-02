@@ -1,20 +1,20 @@
-
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #FFF;
-    font-family: "Century Gothic", ;
+    background-color: #9E5A63;
+    font: 2em "Century Gothic", sans-serif;
     font-size: 13.5pt;
-    color: #000000;
+    color: #d1d7e0;
 }
 h1{
     margin: 0px;
     padding: 0px;
-    font-family: "Century Gothic", ;
+    font: 2em "Century Gothic", sans-serif;
     font-size: 25pt;
-    color: #862525;
+    color: #E98074;
     position: relative;
         text-align: center;	
+        padding-bottom: 10px;
 }
 
 
@@ -23,7 +23,7 @@ h1{
     width: 300px; 
     top: 0;
     left: 0;
-    background-color: #dbd9d9;
+    background-color: #d8bdc0;
     overflow-x: hidden;
     padding-top: 20px;
     text-align: center;
@@ -33,7 +33,7 @@ h1{
   #sidenav a {
     text-align: center;
     padding-top: 0px;
-    font-family: "Century Gothic", ;
+    font: 2em "Century Gothic", sans-serif;
     font-size: 14pt;
     text-decoration: none;
     color: black;
@@ -49,7 +49,7 @@ h1{
 
 #sidenav h2{
     margin: 0px;
-    font-family: "Century Gothic", ;
+    font: 2em "Century Gothic", sans-serif;
     font-size: 20pt;
     color: #862525;
     position: relative;
@@ -68,9 +68,9 @@ h1{
   #contentbox h3{
     margin: 5px;
   
-    font-family: "Century Gothic", ;
+    font: 2em "Century Gothic", sans-serif;
     font-size: 25pt;
-    color: #473e3d;
+    color: #E98074;
     position: relative;
     padding-top: 30px;
     
@@ -83,7 +83,7 @@ h1{
 }
 #text p {
     padding: 5px 55px;
-    font-family: "Century Gothic", ;
+    font: 2em "Century Gothic", sans-serif;
     font-size: 14pt;
     text-decoration: none;
     
@@ -92,16 +92,17 @@ h1{
 #text h3{
     margin: 2px;
     padding: 0px;
-    font-family: "Century Gothic", ;
+    font: 2em "Century Gothic", sans-serif;
     font-size: 25pt;
-    color: #473e3d;
+    color: #fef9c7;
     position: relative;
     padding-top: 30px;
     border-top: 1px solid #C2C0C0 ;
+    text-align: center;
 }
 #text h4{
-    color: #919191;
-    font-family: "Century Gothic", ;
+    color: #E98074;
+    font: 2em "Century Gothic", sans-serif;
     margin: 5px;
     padding: 0px;
 }
@@ -138,13 +139,13 @@ h1{
 
 #groupname a{
     text-decoration: none;
-    color: #862525;
+    color: #fef9c7;
 }
 
 .banner {
     background-color: #473e3d;
     background-position: top left;
-    font-family: "Century Gothic", ;
+    font: 2em "Century Gothic", sans-serif;
     font-size: 25pt;
     color: #d1d2d4;
 		padding: 210px 0;
@@ -153,11 +154,11 @@ h1{
 }
 
 .banner2 {
-    background-color: #473e3d;
+    background-color: #542f34;
     background-position: top left;
-    font-family: "Century Gothic", ;
+    font: 2em "Century Gothic", sans-serif;
     font-size: 25pt;
-    color: #d1d2d4;
+    color: #fef9c7;
 		padding: 80px 0;
 		position: relative;
         text-align: center;	
@@ -191,10 +192,10 @@ ul {
 }
 
 #menu li a, #menu li span{
-    padding: 10px 25px;
+    padding: 10px 20px;
     text-decoration: none;
     font-weight: 400;
-    color: rgba(0,0,0,.8);
+    color: #ebf7ee;
 }
 
 #menu li:hover a, #menu li.active a, #menu li.active span
@@ -230,7 +231,7 @@ for the four coloums, i used it find out how to add a fourth column. */
 #placement .text
 {
     text-align: center;
-    color: #A5A4A4 ;
+    color: #d1d7e0 ;
 }
 
 #placement h3
@@ -238,7 +239,7 @@ for the four coloums, i used it find out how to add a fourth column. */
     display: block;
     padding-bottom: 10px;
     font-size: 18px;
-    color: #5D6D7E;
+    color: #E98074;
 }
 
 
@@ -260,12 +261,12 @@ for the four coloums, i used it find out how to add a fourth column. */
         border-radius:6px;
 		margin-top: 15px;
 		padding: 8px 20px;
-		background: #862525;
+		background: #ffcc99;
 		line-height: 25px;
 		letter-spacing: 1px;
 		text-decoration: none;
 		font-size: 16px;
-        color: #FFF;
+        color: #666666;
       
 	   
 	}
