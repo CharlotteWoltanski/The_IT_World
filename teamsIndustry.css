@@ -1,0 +1,315 @@
+
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+
+#bd *{
+	font-family:'Century Gothic','Futura','Didact Gothic',san-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #9E5A63;
+    font: 2em "Century Gothic", sans-serif;
+    font-size: 13.5pt;
+    color:#e1cdd0;
+    ;
+}
+h1{
+    margin: 0px;
+    padding: 0px;
+    font: 2em "Century Gothic", sans-serif;
+    font-size: 25pt;
+    color: #E98074;
+    position: relative;
+        text-align: center;	
+        padding-bottom: 10px;
+}
+
+
+
+/* For the navigation bar, i used https://templated.co/saleable, 
+to get the bar to sit on the top right hand side. I have changed the code to suit our wesbite.
+I also liked the postioning of the title so i kept that */
+ul {
+    padding: 0;
+    list-style: none;
+    margin-top: 0;
+    
+}
+
+#menu{
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+
+#menu ul{
+    display: inline-block;
+}
+
+#menu li{
+    display: block;
+    float: left;
+    text-align: center;
+    
+}
+
+#menu li a, #menu li span{
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #ebf7ee ;
+}
+
+#menu li:hover a, #menu li.active a, #menu li.active span
+{
+}
+image {
+    display: inline-block;
+    border: 1px solid #C2C0C0 ;
+}
+.image-size
+	{
+        
+		display: block;
+        width: 300px;
+        height: 300px;
+		margin: 0 0 5px 0;
+	}
+#menu a:hover{
+    text-decoration: underline;
+}
+/* Till here */ 
+
+
+#contentbox {
+    margin-left: 200px;
+    padding: 1px 25px;
+    height: 1000px;
+    margin-left: 0;
+     text-align: center;
+  }
+  #contentbox h3{
+    margin: 5px;
+    font-family: "Century Gothic", ;
+    font-size: 25pt;
+    color: #E98074;
+    position: relative;
+    padding-top: 30px;
+  }
+
+
+#text  {
+
+}
+#text p {
+    padding: 5px 55px;
+    font-family: "Century Gothic", ;
+    font-size: 14pt;
+    text-decoration: none;
+    
+
+}
+#text h3{
+    margin: 2px;
+    padding: 0px;
+    font-family: "Century Gothic", ;
+    font-size: 25pt;
+    color: #ed998f;
+    position: relative;
+    padding-top: 30px;
+    border-bottom: 1px solid #C2C0C0 ;
+}
+#text h4{
+    color: #919191;
+    font-family: "Century Gothic", ;
+    margin: 5px;
+    padding: 0px;
+}
+.border{
+      overflow: hidden;
+      padding-top: 30px;
+      border-top: 1px solid #C2C0C0 ;
+      padding-bottom: 50px;
+      border-bottom: 1px solid #C2C0C0 ;
+}
+
+
+
+.container{
+    overflow: hidden;
+    margin: 0em auto;
+    width: 90%;
+}
+
+.container2{
+    overflow: hidden;
+    margin: 0em auto;
+    width: 1200px;
+}
+
+
+#header{
+    
+    position: relative;
+    padding: 50px 25px;
+}
+
+#groupname{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    
+}
+
+#groupname a{
+    text-decoration: none;
+    color: #fef9c7;
+}
+.button2
+	{
+        display: inline-block;
+        border-radius:6px;
+		margin-top: 15px;
+		padding: 8px 20px;
+		background: #ffcc99;
+		line-height: 25px;
+		letter-spacing: 1px;
+		text-decoration: none;
+		font-size: 16px;
+        color: #666666;
+        float: right;
+      
+	   
+	}
+
+
+
+.banner3 {
+   
+    background-color: #542f34;
+    background-position: top left;
+    font: 2em "Century Gothic", sans-serif;
+    font-size: 80pt;
+    color: #fef9c7;
+		padding: 10%;
+		position: relative;
+        text-align: center;	
+      
+
+         
+}
+
+
+
+.Team
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+        
+}
+
+
+.container2
+{
+position: relative;
+width: 1000px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+.container2 .CardContent
+{
+    position: relative;
+    max-width: 450px;
+    background: #0f0909;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+}
+
+.Profile
+{
+    position: relative;
+    max-width: 98%;
+    background: #1f1213;
+    margin: 10px;
+    padding: 15px;
+ 
+    display: flex;
+   
+    box-shadow: 10px 10px 5px 0px rgba(46, 46, 46, 0.932);
+    border-radius: 10px;
+
+}
+
+
+.Profile .Cardimg
+{
+    float: left;
+    max-width: 28%;
+    padding-right: 30px;
+    
+}
+
+
+
+
+
+.Cardimg img
+{   
+    max-width: 100%;
+}
+
+.Profile .CardContent .About
+{
+    
+    margin-left: 20px;
+}
+
+#testh1
+{
+    color: #e1cdd0;
+}
+
+
+
+.About 
+{
+    color: #e1cdd0;
+}
+
+.About
+{
+    font-size: 0.45cm;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

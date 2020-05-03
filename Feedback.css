@@ -1,0 +1,168 @@
+
+
+body{
+   
+    margin: 0px;
+    padding: 0px;
+    background-image: url(images/Back.jpg);
+    font: 2em "Century Gothic", sans-serif;
+    font-size: 13.5pt;
+    color: #d1d7e0;
+}
+h1{
+   
+    margin: 0px;
+    padding: 0px;
+    font: 2em "Century Gothic", sans-serif;
+    font-size: 45pt;
+    color: #E98074;
+    position: relative;
+    text-align: center;	
+   
+       
+}
+
+
+
+#text  {
+  
+}
+
+#text p {
+
+    overflow: hidden;
+    margin: 50px;
+    border-bottom: 1px solid #C2C0C0 ;
+    text-align: left ;
+    font: 2em "Century Gothic", sans-serif;
+        font-size: 14pt;
+        color: black;
+        padding-bottom: 1%;
+       
+   
+
+}
+   
+
+#text h2 {
+
+    margin: 50px;
+    padding-top: 0%;
+    font: 2em "Century Gothic", sans-serif;
+    font-size: 20pt;
+    color: #473e3d;
+    text-align: left ;
+    
+
+}
+
+
+#text h3{
+    margin: 2px;
+    padding: 0px;
+    font: 2em "Century Gothic", sans-serif;
+    font-size: 25pt;
+    color: #473e3d;
+    position: relative;
+    padding-top: 30px;
+border-top: 1px solid #C2C0C0 ;
+}
+#text h4{
+    color: #919191;
+    font: 2em "Century Gothic", sans-serif;
+    margin: 5px;
+    padding: 0px;
+}
+
+
+
+.container{
+    background-image: url(images/Back.jpg);
+    overflow: hidden;
+   
+}
+
+
+#header{
+    
+    position: relative;
+    padding: 50px 25px;
+}
+
+
+#groupname{
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    
+}
+
+#groupname a{
+    text-decoration: none;
+    color: #fef9c7;
+    font: 2em "Century Gothic", sans-serif;
+    font-size: 20pt;
+    position: relative;
+    text-align: center;	
+}
+/*  for the navigation bar i used https://templated.co/saleable, 
+to get the bar to sit on the top right hand side. I have changed the code to suit our wesbite.
+I also liked the postioning of the title so i kept that*/
+ul {
+    padding: 0;
+    list-style: none;
+    margin-top: 0;
+    
+}
+
+#menu{
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+
+#menu ul{
+    display: inline-block;
+}
+
+#menu li{
+    display: block;
+    float: left;
+    text-align: center;
+    
+}
+
+#menu li a, #menu li span{
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+}
+
+#menu li:hover a, #menu li.active a, #menu li.active span
+{
+}
+
+#menu a:hover{
+    text-decoration: underline;
+}
+/* The above section  */
+
+
+
+.banner {
+    background-color: white;
+    height: 100%;
+    margin: 0px 100px 0px 100px;
+		position: relative;
+        text-align: center;	
+}
+
+
+.block {
+    
+    height: 100%;
+    margin: 0px 100px 0px 100px;
+		position: relative;
+        
+}
