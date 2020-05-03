@@ -1,7 +1,7 @@
 
 
 body{
-    
+   
     margin: 0px;
     padding: 0px;
     background-image: url(images/wooden.png);
@@ -10,19 +10,21 @@ body{
     color: #d1d7e0;
 }
 h1{
+   
     margin: 0px;
     padding: 0px;
     font: 2em "Century Gothic", sans-serif;
     font-size: 45pt;
     color: #E98074;
     position: relative;
-        text-align: center;	
+    text-align: center;	
+       
 }
 
 
 
 #text  {
-
+  
 }
 
 #text p {
@@ -34,6 +36,7 @@ h1{
     font: 2em "Century Gothic", sans-serif;
         font-size: 14pt;
         color: black;
+       
    
 
 }
@@ -137,7 +140,6 @@ ul {
 {
 }
 
-	}
 #menu a:hover{
     text-decoration: underline;
 }

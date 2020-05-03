@@ -13,11 +13,23 @@ h1{
     font: 2em "Century Gothic", sans-serif;
     font-size: 25pt;
     color: #E98074;
-    position: relative;
-        text-align: center;	
-        padding-bottom: 10px;
+    
+    text-align: center; 
+    padding-bottom: 4%;
+    padding-left: 15%;
 }
+h6{
+    margin: 0px;
+    padding-top: 40px;
+    font: 2em "Century Gothic", sans-serif;
+    font-size: 25pt;
+    color: #E98074;
+    
+    text-align: center; 
+    padding-bottom: 4%;
+    padding-left: 15%;
 
+}
 
 #text  {
 
@@ -26,6 +38,8 @@ h1{
     padding: 5px 55px;
     font: 2em "Century Gothic", sans-serif;
     font-size: 14pt;
+   
+}
     
 
 }
@@ -33,7 +47,7 @@ h1{
     margin: 2px;
     padding: 0px;
     font: 2em "Century Gothic", sans-serif;
-    font-size: 25pt;
+    font-size: 20pt;
     color: #E98074;
     position: relative;
     padding-top: 30px;
@@ -42,6 +56,7 @@ h1{
 #text h4{
     color: #919191;
     font: 2em "Century Gothic", sans-serif;
+    font-size: 30px;
     margin: 5px;
     padding: 0px;
 }
@@ -52,6 +67,20 @@ h1{
     font-size: 18px;
     color: #C5c6c7;
     text-decoration: none;
+}
+#text h1 {
+    
+        margin: 2px;
+        padding: 0px;
+        font: 2em "Century Gothic", sans-serif;
+        font-size: 25pt;
+        color: #fef9c7;
+        position: relative;
+        padding-top: 30px;
+        text-align: left;
+        
+        
+   
 }
 
 #text h5{
@@ -86,7 +115,7 @@ h1{
 .container{
     overflow: hidden;
     margin: 0em auto;
-    width: 1200px;
+    width: 90%;
 }
 
 
@@ -115,9 +144,9 @@ h1{
     font: 2em "Century Gothic", sans-serif;
     font-size: 65pt;
     color: #fef9c7;
-		padding: 160px;
-		position: relative;
-        text-align: center;	
+        padding: 10%;
+        position: relative;
+        text-align: center; 
 }
 
 
@@ -163,12 +192,10 @@ image {
     border: 1px solid #C2C0C0 ;
 }
 .image-size
-	{
-		display: block;
-        width: 300px;
-        height: 300px;
-		margin: 0 0 5px 0;
-	}
+    {
+         width: 120%;
+        margin: 0 0 5px 0;
+    }
 #menu a:hover{
     text-decoration: underline;
 }
@@ -178,10 +205,11 @@ image {
 for the four coloums, i used it find out how to add a fourth column. */
 #placement
 {
+   
     overflow: hidden;
-    padding-top: 10px;
+    
     border-top: 1px solid #C2C0C0 ;
-    padding-bottom: 0px;
+    padding-bottom: 2%;
     
 }
 
@@ -193,6 +221,7 @@ for the four coloums, i used it find out how to add a fourth column. */
 
 #placement h3
 {
+    padding-left: 15%;
     display: inline-block;
     font-size: 18px;
     color: #E98074 ;
@@ -203,8 +232,9 @@ for the four coloums, i used it find out how to add a fourth column. */
 .column1, .column2, .column3
 {
     float: left;
-    margin: 50px;
-    width: 282px;
+    margin: 6.2%;
+    width: 20.5%;
 }
+
 
 

@@ -19,8 +19,9 @@ h1{
 
 
 #sidenav {
-    height: 1000px;
-    width: 300px; 
+  
+    height: 100%;
+    width: 25%; 
     top: 0;
     left: 0;
     background-color: #d8bdc0;
@@ -54,6 +55,7 @@ h1{
     color: #862525;
     position: relative;
     text-align: center;	
+    
 }
 
 
@@ -119,8 +121,9 @@ h1{
 .container{
     overflow: hidden;
     margin: 0em auto;
-    width: 1200px;
+    width: 90%;
 }
+
 
 
 #header{
@@ -246,14 +249,14 @@ for the four coloums, i used it find out how to add a fourth column. */
 .column1, .column2, .column3
 {
     float: left;
-    margin-right: 24px;
-    width: 282px;
+    margin-right: 0%;
+    width: 25%;
 }
 
 .column4
 {
     float: right;
-    width: 282px;
+    width: 25%;
 }
 .button
 	{
@@ -269,4 +272,4 @@ for the four coloums, i used it find out how to add a fourth column. */
         color: #666666;
       
 	   
-	}
+    }

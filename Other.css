@@ -70,6 +70,7 @@ image {
 }
 .image-size
 	{
+        
 		display: block;
         width: 300px;
         height: 300px;
@@ -138,7 +139,7 @@ image {
 .container{
     overflow: hidden;
     margin: 0em auto;
-    width: 1200px;
+    width: 90%;
 }
 
 .container2{
@@ -154,7 +155,6 @@ image {
     padding: 50px 25px;
 }
 
-
 #groupname{
     position: absolute;
     top: 20px;
@@ -166,19 +166,38 @@ image {
     text-decoration: none;
     color: #fef9c7;
 }
-
+.button2
+	{
+        display: inline-block;
+        border-radius:6px;
+		margin-top: 15px;
+		padding: 8px 20px;
+		background: #ffcc99;
+		line-height: 25px;
+		letter-spacing: 1px;
+		text-decoration: none;
+		font-size: 16px;
+        color: #666666;
+        float: right;
+      
+	   
+	}
 
 
 
 .banner3 {
+   
     background-color: #542f34;
     background-position: top left;
     font: 2em "Century Gothic", sans-serif;
     font-size: 80pt;
     color: #fef9c7;
-		padding: 210px 0;
+		padding: 10%;
 		position: relative;
         text-align: center;	
+      
+
+         
 }
 
 
@@ -267,8 +286,6 @@ flex-wrap: wrap;
 {
     font-size: 0.45cm;
 }
-
-
 
 
 
