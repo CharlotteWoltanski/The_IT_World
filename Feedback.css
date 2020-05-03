@@ -4,16 +4,16 @@ body{
    
     margin: 0px;
     padding: 0px;
-    background-image: url(images/Back.jpg);
-    font: 2em "Century Gothic", sans-serif;
+    background-image: url(Back.jpg);
+    font-family: "Times New Roman", Times, serif;
     font-size: 13.5pt;
     color: #d1d7e0;
 }
 h1{
-   
+    font-family: "Times New Roman", Times, serif;
     margin: 0px;
     padding: 0px;
-    font: 2em "Century Gothic", sans-serif;
+    
     font-size: 45pt;
     color: #E98074;
     position: relative;
@@ -29,12 +29,12 @@ h1{
 }
 
 #text p {
-
+    font-family: "Times New Roman", Times, serif;
     overflow: hidden;
     margin: 50px;
     border-bottom: 1px solid #C2C0C0 ;
     text-align: left ;
-    font: 2em "Century Gothic", sans-serif;
+    
         font-size: 14pt;
         color: black;
         padding-bottom: 1%;
@@ -48,7 +48,7 @@ h1{
 
     margin: 50px;
     padding-top: 0%;
-    font: 2em "Century Gothic", sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 20pt;
     color: #473e3d;
     text-align: left ;
@@ -60,7 +60,7 @@ h1{
 #text h3{
     margin: 2px;
     padding: 0px;
-    font: 2em "Century Gothic", sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 25pt;
     color: #473e3d;
     position: relative;
@@ -69,7 +69,7 @@ border-top: 1px solid #C2C0C0 ;
 }
 #text h4{
     color: #919191;
-    font: 2em "Century Gothic", sans-serif;
+    font-family: "Times New Roman", Times, serif;
     margin: 5px;
     padding: 0px;
 }
@@ -77,14 +77,14 @@ border-top: 1px solid #C2C0C0 ;
 
 
 .container{
-    background-image: url(images/Back.jpg);
+    background-image: url(Back.jpg);
     overflow: hidden;
    
 }
 
 
 #header{
-    
+    font-family: "Times New Roman", Times, serif;
     position: relative;
     padding: 50px 25px;
 }
@@ -94,13 +94,13 @@ border-top: 1px solid #C2C0C0 ;
     position: absolute;
     top: 20px;
     left: 100px;
-    
+    font-family: "Times New Roman", Times, serif;
 }
 
 #groupname a{
     text-decoration: none;
     color: #fef9c7;
-    font: 2em "Century Gothic", sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 20pt;
     position: relative;
     text-align: center;	
@@ -112,7 +112,7 @@ ul {
     padding: 0;
     list-style: none;
     margin-top: 0;
-    
+    font-family: "Times New Roman", Times, serif;
 }
 
 #menu{
@@ -129,7 +129,7 @@ ul {
     display: block;
     float: left;
     text-align: center;
-    
+    font-family: "Times New Roman", Times, serif;
 }
 
 #menu li a, #menu li span{
@@ -156,6 +156,7 @@ ul {
     margin: 0px 100px 0px 100px;
 		position: relative;
         text-align: center;	
+        font-family: "Times New Roman", Times, serif;
 }
 
 

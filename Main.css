@@ -1,15 +1,17 @@
+
+
 body{
     margin: 0px;
     padding: 0px;
     background-color: #9E5A63;
-    font: 2em "Century Gothic", sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 13.5pt;
     color: #d1d7e0;
 }
 h1{
     margin: 0px;
     padding: 0px;
-    font: 2em "Century Gothic", sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 25pt;
     color: #E98074;
     position: relative;
@@ -34,7 +36,7 @@ h1{
   #sidenav a {
     text-align: center;
     padding-top: 0px;
-    font: 2em "Century Gothic", sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 14pt;
     text-decoration: none;
     color: black;
@@ -50,7 +52,6 @@ h1{
 
 #sidenav h2{
     margin: 0px;
-    font: 2em "Century Gothic", sans-serif;
     font-size: 20pt;
     color: #862525;
     position: relative;
@@ -70,7 +71,7 @@ h1{
   #contentbox h3{
     margin: 5px;
   
-    font: 2em "Century Gothic", sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 25pt;
     color: #E98074;
     position: relative;
@@ -85,7 +86,7 @@ h1{
 }
 #text p {
     padding: 5px 55px;
-    font: 2em "Century Gothic", sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 14pt;
     text-decoration: none;
     
@@ -94,7 +95,7 @@ h1{
 #text h3{
     margin: 2px;
     padding: 0px;
-    font: 2em "Century Gothic", sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 25pt;
     color: #fef9c7;
     position: relative;
@@ -104,7 +105,7 @@ h1{
 }
 #text h4{
     color: #E98074;
-    font: 2em "Century Gothic", sans-serif;
+    font-family: "Times New Roman", Times, serif;
     margin: 5px;
     padding: 0px;
 }
@@ -127,7 +128,7 @@ h1{
 
 
 #header{
-    
+    font-family: "Times New Roman", Times, serif;
     position: relative;
     padding: 50px 25px;
 }
@@ -148,7 +149,7 @@ h1{
 .banner {
     background-color: #473e3d;
     background-position: top left;
-    font: 2em "Century Gothic", sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 25pt;
     color: #d1d2d4;
 		padding: 210px 0;
@@ -159,7 +160,7 @@ h1{
 .banner2 {
     background-color: #542f34;
     background-position: top left;
-    font: 2em "Century Gothic", sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 25pt;
     color: #fef9c7;
 		padding: 80px 0;
@@ -233,7 +234,7 @@ for the four coloums, i used it find out how to add a fourth column. */
 
 #placement .text
 {
-    text-align: center;
+    font-family: "Times New Roman", Times, serif;
     color: #d1d7e0 ;
 }
 
