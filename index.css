@@ -1,17 +1,17 @@
 
 
+/* Text and body */
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #9E5A63;
+    background-image:linear-gradient( #9E5A63 20%, #542f34 80%);
     font-family: "Times New Roman", Times, serif;
-    font-size: 13.5pt;
+    font-size: 15pt;
     color: #d1d7e0;
 }
 h1{
     margin: 0px;
     padding: 0px;
-    font-family: "Times New Roman", Times, serif;
     font-size: 25pt;
     color: #E98074;
     
@@ -21,30 +21,14 @@ h1{
 }
 h2 {
     color: #bdb7b7;
-    font-family: "Times New Roman", Times, serif;
     font-size: 25px;
     margin: 5px;
     text-align: center;
 }
 
-h4{
-    color: #919191;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 30px;
-    margin: 5px;
-    padding: 0px;
-    text-align: center;
-}
-h5 {
-    padding: 5px 55px;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 14pt;
-    text-align: center;
-}
 h6{
     margin: 0px;
     padding-top: 40px;
-    font-family: "Times New Roman", Times, serif;
     font-size: 25pt;
     color: #E98074;
     
@@ -55,39 +39,15 @@ h6{
 }
 
 #text  {
-
 }
 #text p {
     padding: 5px 55px;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 14pt;
-   
+    font-size: 14pt;  
 }
     
-
-}
-#text h3{
-    margin: 2px;
-    padding: 0px;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 20pt;
-    color: #E98074;
-    position: relative;
-    padding-top: 30px;
-    border-top: 1px solid #C2C0C0 ;
-}
-#text h4{
-    color: #d5cece;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 25px;
-    margin: 5px;
-    padding: 0px;
-    text-align: left;
-}
 #text h2{
     
     text-align: center;
-    font-family: "Times New Roman", Times, serif;
     font-size: 18px;
     color: #C5c6c7;
     text-decoration: none;
@@ -96,21 +56,16 @@ h6{
     
         margin: 2px;
         padding: 0px;
-        font-family: "Times New Roman", Times, serif;
         font-size: 25pt;
         color: #fef9c7;
         position: relative;
         padding-top: 30px;
-        text-align: left;
-        
-        
-   
+        text-align: left; 
 }
 
 #text h5{
     margin: 2px;
     padding: 0px;
-    font-family: "Times New Roman", Times, serif;
     font-size: 25pt;
     color: #fef9c7;
     position: relative;
@@ -124,7 +79,10 @@ h6{
 
 
 
-
+/* Containers */
+#header{
+    position: relative;
+}
 
 .border{
       overflow: hidden;
@@ -134,8 +92,6 @@ h6{
       border-bottom: 1px solid #C2C0C0 ;
 }
 
-
-
 .container{
     overflow: hidden;
     margin: 0em auto;
@@ -143,24 +99,6 @@ h6{
 }
 
 
-#header{
-    font-family: "Times New Roman", Times, serif;
-    position: relative;
-    padding: 50px 25px;
-}
-
-
-#groupname{
-    position: absolute;
-    top: 20px;
-    left: 0;
-    
-}
-
-#groupname a{
-    text-decoration: none;
-    color: #fef9c7;
-}
 
 .banner {
     background-color: #542f34;
@@ -173,44 +111,24 @@ h6{
         text-align: center; 
 }
 
-
-/* For the navigation bar, i used https://templated.co/saleable, 
-to get the bar to sit on the top right hand side. I have changed the code to suit our wesbite.
-I also liked the postioning of the title so i kept that */
-ul {
-    padding: 0;
-    list-style: none;
-    margin-top: 0;
-    
-}
-
-#menu{
+/* Group name */
+#groupname{
     position: absolute;
-    top: 30px;
+    top: 20px;
     right: 0;
-}
-
-#menu ul{
-    display: inline-block;
-}
-
-#menu li{
-    display: block;
-    float: left;
-    text-align: center;
+    padding-right: 5%;
     
 }
 
-#menu li a, #menu li span{
-    padding: 10px 25px;
+#groupname a{
     text-decoration: none;
-    font-weight: 400;
-    color: #ebf7ee ;
+    color: #fef9c7;
 }
 
-#menu li:hover a, #menu li.active a, #menu li.active span
-{
-}
+
+
+
+/* image */
 image {
     display: inline-block;
     border: 1px solid #C2C0C0 ;
@@ -220,16 +138,78 @@ image {
          width: 120%;
         margin: 0 0 5px 0;
     }
-#menu a:hover{
-    text-decoration: underline;
-}
-/* Till here */ 
 
-/* I refernced https://all-free-download.com/free-website-templates/download/amaryllis_2554.html 
-for the four coloums, i used it find out how to add a fourth column. */
+
+/* Resposnsive navigation bar */
+@media only screen and (max-width:1150px){
+    ul {
+        flex-direction: column;
+        padding-top: 60px;
+    }
+    li, a{
+     margin: 0;
+     color: #ebf7ee ;
+     display: block;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+  
+    #groupname {
+        padding-right: 40%;
+    }
+    }
+    
+    
+    /* Nav bar */
+    ul {
+        margin: 0;
+        padding: 10;;
+        display: flex;
+     
+    }
+
+    
+    li{
+        list-style-type: none;
+        margin: 2%;
+        font-size: 18px;
+        right: 0cm;
+        
+    }
+    a {
+        text-decoration: none; 
+        right: 0;
+        color: #ebf7ee ;
+    
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    nav {
+        overflow: hidden;
+        margin: 0em auto;
+        width: 100%;
+        background-color: #9E5A63;
+    }
+
+
+#menu{
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+@media screen and (min-width: 1150px) {
+    #menu  {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
+/* I refernced https://all-free-download.com/free-website-templates/download/amaryllis_2554.html */
+
 #placement
 {
-   
     overflow: hidden;
     font-family: "Times New Roman", Times, serif;
     border-top: 1px solid #C2C0C0 ;
@@ -259,6 +239,3 @@ for the four coloums, i used it find out how to add a fourth column. */
     margin: 6.2%;
     width: 20.5%;
 }
-
-
-
