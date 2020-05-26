@@ -4,7 +4,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #9E5A63;
+    background-image:linear-gradient( #212121 30%, #413d65 70%);
     font-family: "Times New Roman", Times, serif;
     font-size: 13.5pt;
     color:#e1cdd0;
@@ -14,7 +14,7 @@ h1{
     margin: 0px;
     padding: 0px;
     font-size: 25pt;
-    color: #E98074;
+    color: #fef9c7;
     position: relative;
         text-align: center;	
         padding-bottom: 10px;
@@ -84,7 +84,6 @@ image {
         overflow: hidden;
         margin: 0em auto;
         width: 100%;
-        background-color: #9E5A63;
     }
 
 
@@ -192,10 +191,10 @@ image {
 
 .banner3 {
    
-    background-color: #542f34;
+    background-color: #2b1f31;
     background-position: top left;
     font-size: 90px;
-    color: #fef9c7;
+    color: #fab7b7;
 		padding: 10%;
 		position: relative;
         text-align: center;	
@@ -239,7 +238,7 @@ flex-wrap: wrap;
 {
     position: relative;
     max-width: 98%;
-    background: #1f1213;
+    background: #26191b;
     margin: 10px;
     padding: 15px;
  

@@ -4,7 +4,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #9E5A63;
+    background-image:linear-gradient( #212121 30%, #413d65 70%);
     font-family: "Times New Roman", Times, serif;
     font-size: 13.5pt;
     color: #d1d7e0;
@@ -43,7 +43,7 @@ h1{
     text-align: center;
 }
 #text h4{
-    color: #fef9c7;
+    color: #f4efd3;
     text-align: center;
     font-size: 20px;
     margin: 20px;
@@ -75,14 +75,15 @@ h1{
 }
 
 .banner {
-    background-color: #542f34;
+    background-color: #2b1f31;
     background-position: top left;
-    font-size: 25pt;
-    color: #d1d2d4;
-		padding: 10%;
-		position: relative;
-        text-align: center;	
+    font-size: 30pt;
+    color: #fab7b7;
+        padding: 6%;
+        position: relative;
+        text-align: center; 
 }
+
 
 
 
@@ -165,7 +166,6 @@ image {
         overflow: hidden;
         margin: 0em auto;
         width: 100%;
-        background-color: #9E5A63;
     }
 
 

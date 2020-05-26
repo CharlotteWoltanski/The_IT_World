@@ -4,7 +4,7 @@ body{
     font-family: "Times New Roman", Times, serif;
     margin: 0px;
     padding: 0px;
-    background-image: url(Back.jpg);
+    background-image: url(Background.jpg);
     font-size: 13.5pt;
     color: #d1d7e0;
 }
@@ -74,7 +74,7 @@ border-top: 1px solid #C2C0C0 ;
 
 
 .banner {
-    background-color: white;
+    background-color: #dddddd;
     height: 100%;
     margin: 0px 100px 0px 100px;
 		position: relative;

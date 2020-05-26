@@ -4,7 +4,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-image:linear-gradient( #9E5A63 20%, #542f34 80%);
+    background-image:linear-gradient( #212121 30%, #413d65 70%);
     font-family: "Times New Roman", Times, serif;
     font-size: 15pt;
     color: #d1d7e0;
@@ -13,7 +13,7 @@ h1{
     margin: 0px;
     padding: 0px;
     font-size: 25pt;
-    color: #E98074;
+    color: #fef9c7;
     
     text-align: center; 
     padding-bottom: 4%;
@@ -30,7 +30,7 @@ h6{
     margin: 0px;
     padding-top: 40px;
     font-size: 25pt;
-    color: #E98074;
+    color: #fef9c7;
     
     text-align: center; 
     padding-bottom: 4%;
@@ -101,11 +101,10 @@ h6{
 
 
 .banner {
-    background-color: #542f34;
+    background-color: #2b1f31;
     background-position: top left;
-    font-family: "Times New Roman", Times, serif;
     font-size: 65pt;
-    color: #fef9c7;
+    color: #fab7b7;
         padding: 10%;
         position: relative;
         text-align: center; 
@@ -158,6 +157,10 @@ image {
     #groupname {
         padding-right: 40%;
     }
+    .image-size
+    {
+         width: 70%;
+    }
     }
     
     
@@ -190,7 +193,6 @@ image {
         overflow: hidden;
         margin: 0em auto;
         width: 100%;
-        background-color: #9E5A63;
     }
 
 
@@ -217,15 +219,17 @@ image {
     
 }
 
-#placement .text
+#placement p
 {
+    padding-left: 15%;
+   
     text-align: center;
     color: #C5c6c7;
 }
 
 #placement h3
 {
-    padding-left: 15%;
+    padding-left: 30%;
     display: inline-block;
     font-size: 18px;
     color: #E98074 ;
