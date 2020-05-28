@@ -9,70 +9,25 @@ body{
     font-size: 15pt;
     color: #d1d7e0;
 }
-h1{
-    margin: 0px;
-    padding: 0px;
-    font-size: 25pt;
-    color: #fef9c7;
-    text-align: center; 
-    padding-bottom: 4%;
-    padding-left: 15%;
-}
+
 h2 {
     color: #bdb7b7;
     font-size: 25px;
     margin: 5px;
     text-align: center;
 }
-
-h6{
-    margin: 0px;
-    padding-top: 40px;
-    font-size: 25pt;
-    color: #fef9c7;
-    
-    text-align: center; 
-    padding-bottom: 4%;
-    padding-left: 15%;
-
-}
-
-#text  {
-}
-#text p {
-    padding: 5px 55px;
-    font-size: 14pt;  
-}
-    
-#text h2{
-    
-    text-align: center;
-    font-size: 18px;
-    color: #C5c6c7;
-    text-decoration: none;
-}
-#text h1 {
-    
-        margin: 2px;
-        padding: 0px;
-        font-size: 25pt;
+h3{
+         padding-top: 3%;
         color: #fef9c7;
-        position: relative;
-        padding-top: 30px;
-        text-align: left; 
+        font-size: 25px;
+        margin: 5px;
+        text-align: center;
 }
-
-#text h5{
-    margin: 2px;
-    padding: 0px;
-    font-size: 25pt;
-    color: #fef9c7;
-    position: relative;
-    padding-top: 30px;
-    border-top: 8px solid #C2C0C0 ;
+h4{
+    color: #d4f3ef;
+    font-size: 20px;
     text-align: center;
 }
-
 
 
 
@@ -81,6 +36,7 @@ h6{
 /* Containers */
 #header{
     position: relative;
+    
 }
 
 .border{
@@ -92,6 +48,7 @@ h6{
 }
 
 .container{
+    
     overflow: hidden;
     margin: 0em auto;
     width: 90%;
@@ -117,7 +74,15 @@ h6{
     padding-right: 5%;
     
 }
-
+#groupname h1{
+    margin: 0px;
+    padding: 0px;
+    font-size: 25pt;
+    color: #fef9c7;
+    text-align: center; 
+    padding-bottom: 4%;
+    padding-left: 15%;
+}
 #groupname a{
     text-decoration: none;
     color: #fef9c7;
@@ -127,14 +92,14 @@ h6{
 
 
 /* image */
-image {
-    display: inline-block;
-    border: 1px solid #C2C0C0 ;
-}
+
 .image-size
     {
-         width: 120%;
-        margin: 0 0 5px 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+       
     }
 
 
@@ -211,36 +176,3 @@ image {
     }
 
 /* I refernced https://all-free-download.com/free-website-templates/download/amaryllis_2554.html */
-
-#placement
-{
-    overflow: hidden;
-    border-top: 1px solid #C2C0C0 ;
-    padding-bottom: 2%;
-    
-}
-
-#placement p
-{
-    text-align: center;
-    color: #C5c6c7;
-    width: 120%;
-}
-
-#placement h3
-{
-    width: 120%;
-    padding-left: 6%;
-    display: inline-block;
-    font-size: 18px;
-    color: #E98074 ;
-}
-
-
-
-.column1, .column2, .column3
-{
-    float: left;
-    margin: 6.2%;
-    width: 20.5%;
-}
